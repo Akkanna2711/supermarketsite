@@ -1,0 +1,141 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    margin: 5px;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+table,th,td{
+    width: 800px;
+    height: 30px;
+    text-align: center;
+
+}
+th
+{
+    background-color:darkslateblue;
+
+}
+.circle
+{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+
+}
+
+tr:nth-child(2)
+{
+    background-color:mediumaquamarine;
+
+}  
+tr:nth-child(3)
+{
+    background-color:yellow;
+
+}  
+tr:nth-child(4)
+{
+    background-color:blue;
+
+}  
+tr:nth-child(5)
+{
+    background-color:palevioletred;
+
+}  
+tr:nth-child(6)
+{
+    background-color:darkblue;
+
+}  
+tr:nth-child(7)
+{
+    background-color:darkred;
+
+}  
+tr:nth-child(8)
+{
+    background-color:purple;
+
+}
+tr:nth-child(9)
+{
+    background-color:red;
+
+}    
+tr:nth-child(10)
+{
+    background-color:orangered;
+
+}  
+tr:nth-child(11)
+{
+    background-color:skyblue;
+
+}    
+.circle1
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    
+}
+.circle2
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+@media screen and (max-width:370px){
+    .container{
+        display: none;
+    }
+}
+   /* table, table td, table tr, table th{
+        display: block;
+        width: 100%;
+
+    }
+    table tr
+    {
+        margin-bottom: 5px;
+    }
+    table tr td
+    {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+}*/
